@@ -10,7 +10,7 @@
 
   $(window).on('load', function () {
     onDomMounted(() => {
-      console.log('dom mounted', $('#preloader')[0])
+      console.log('dom mounted')
       preloader()
       mainSlider()
       aosAnimation()
